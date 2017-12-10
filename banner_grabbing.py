@@ -3,6 +3,7 @@
 #Este programa es de opensource.
 #Reconocimiento-NoComercial-CompartirtIgual
 #Se puede distribuir y/o moificar siempre y cuando no sean con fines comerciales.
+#Requisito: tener instalado mongodb
 
 import socket
 from pymongo import MongoClient
