@@ -25,7 +25,7 @@ class bannergrabbing:
             cursor = db.collection.insert({"ip":ip,"banner":result})
             print result
             print 'Los resultados se ha guardado en  la base de datos'
-            db.collection.find()
+         
         except Exception as e:
             print e
             print 'No se ha guardado'
