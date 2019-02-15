@@ -10,4 +10,9 @@ metadatospdf.py: Analiza los metadatos de un archivo PDF, de utilidad para el An
 sniffer.py :
 Scapy es una librería para la manipulcación de paquetes, puede decodificar dichos paquetes de un gran número de protocolos, realiza tareas como scanner, ataques de descubrimiento etc. 	Este script realiza el sniffer de la interfaz de red wlan0 en los protocolos que soport Scapy y a continuación en el protocolo ICMP y TCP 
 
+clavesRSA.py:
+Script  que permite generar un par de claves(pública y privada) para cifrar y descifrar mensajes o archivos de texto utilizando RSA de 2048 bits.
+
+
+
 
