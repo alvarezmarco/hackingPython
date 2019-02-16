@@ -1,4 +1,6 @@
 Estos son algunos scripts escritos en Python.
+Todos estos scripts están abiertos al público con fines educativos.
+No me responsabilizo del mal uso que puedan utilizar.
 
 informacionDNS.py : Este script consulta los registros DNS sobre IPv4 (del tipo A), IPv6 (del tipo AAAA), Name Serveres (NS), MailServers (MX)\permite 
 Uso: python  informacionDNS.py dominio. EX:  python informacionDNS.py google.es
@@ -12,6 +14,9 @@ Scapy es una librería para la manipulcación de paquetes, puede decodificar dic
 
 clavesRSA.py:
 Script  que permite generar un par de claves(pública y privada) para cifrar y descifrar mensajes o archivos de texto utilizando RSA de 2048 bits.
+
+ransonware.py
+Script que cifra dado un path archivos .py,a continuación  borra los archivos, ejemplo e un ransonware básico
 
 
 
