@@ -18,7 +18,7 @@ clave = "test"
 class ransonware:
     
     def _init_(self):
-        print("Public and Private Key RSA 2048")    
+        print("Basic Ransonware")    
 
     def cifrar(self, clave, file, fileout=None):
         if not fileout:
